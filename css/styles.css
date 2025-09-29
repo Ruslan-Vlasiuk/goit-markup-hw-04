@@ -290,6 +290,7 @@ color: var(--slate);
 
 .footer-content {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .logo-footer {
@@ -316,6 +317,7 @@ color: var(--slate);
 .footer-social {
   display: flex;
   flex-direction: column;
+  align-items: baseline;
   margin-right: calc(692px - 132px);
 }
 
