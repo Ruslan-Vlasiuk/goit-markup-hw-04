@@ -1,0 +1,252 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+  --fonts: "Roboto", sans-serif;
+  --size-text: 16px;
+  --line-height: 1.5;
+  --letter-spacing: 0.02em;
+}
+
+
+/*  */
+body {
+  font-family: var(--fonts);
+  font-size: var(--size-text);
+  color: var(--navy-blue);
+  background-color: var(--white);
+  line-height: var(--line-height);
+  letter-spacing: var(--letter-spacing);
+}
+/* ====== RESET ====== */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.button {
+  cursor: pointer;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.is-hidden {
+  position:absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+
+
+/* HEADER STYLE */
+.header {
+  padding-bottom: 25.5px;
+  padding-top: 25.5px;
+  border-bottom: 1px solid #e7e9fc;
+}
+
+.header .container{
+  display: flex;
+  align-items: center;
+  width: 1158px;
+  margin-right: auto;
+  padding: 0 15px;
+}
+.logo-header {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  width: 115px;
+  height: 24px;
+  margin-left: 156px;
+  margin-right: 76px;
+
+}
+.navigation {  
+  margin-right: 332px;
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+.nav-link {
+  padding: 24px 0;
+}
+
+.nav-item {
+  font-weight: 500;
+}
+.contacts-list {
+  color: var(--slate);
+  display: flex;
+  align-items: center;
+  margin-right: 156px;
+}
+.contacts-item:not(:last-child) {
+margin-right: 40px;
+}
+.contacts-link {
+  white-space: nowrap;
+}
+
+
+/* HERO STYLE */
+
+.hero {
+  background: var(--navy-blue);
+  padding-top: 188px;
+  padding-bottom: 292px;
+}
+.h1-hero {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--white);
+  max-width: 496px;
+  margin-bottom: 48px;
+}
+
+.button-hero {
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: var(--iris);
+}
+
+/* ADVANTAGES STYLE */
+.advantages {
+  padding: 50px 0;
+}
+.advantages-h2 {
+
+}
+.advantages-list {
+}
+.advantages-item {
+}
+.advantages-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
+}
+.advantages-text {
+  font-weight: 400;
+  color: var(--slate);
+}
+
+/* TEAM STYLE */
+.team-section {
+  background-color: var(--cloud);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-h2 {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  margin-bottom: 72px;
+}
+.team-item {
+  width: 264px;
+  border-radius: 0 0 4px 4px;
+  background: var(--white);
+  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.team-item:not(:last-child) {
+  margin-right: 24px;
+}
+.team-img {
+padding-bottom: 32px;}
+.team-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
+  padding-bottom: 8px;
+}
+.team-text {
+  padding-bottom: 32px;
+}
+
+/* Portfolio-STYLES */
+
+.portfolio-h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+}
+
+.portfolio-h3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.20;
+}
+.portfolio-text {
+font-weight: 400;
+color: var(--slate);
+}
+
+/* Footer Style */
+.footer-text {
+  color: var(--cloud);
+}
+.span {
+  color: var(--iris);
+}
+.footer {
+  background-color: var(--navy-blue);
+}
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--cloud);
+}
+
