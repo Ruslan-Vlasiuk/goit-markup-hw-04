@@ -285,7 +285,7 @@ color: var(--slate);
 .footer-container {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: baseline;
 }
 
 .footer-content {
