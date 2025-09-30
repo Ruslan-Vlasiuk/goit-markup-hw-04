@@ -299,14 +299,17 @@ main {
   justify-content: center;
 }
 
-.team-info .social-icon {
+.team-info-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 40px;
   height: 40px;
 }
 
-.team-info .social-icon:hover,
-.team-info .social-icon:focus {
-  background-color: var(--ocean);
+.team-info .social-link:hover,
+.team-info .social-link:focus {
+  background-color: var(--green);
 }
 /* Portfolio-STYLES */
 
@@ -403,15 +406,13 @@ main {
   display: flex;
   gap: 16px;
 }
-.footer-social .social-list {
-  width: 40px;
-  height: 40px;
-}
 
 .social-link {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px;
+  height: 40px;
   background-color: var(--iris);
   border-radius: 50%;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
