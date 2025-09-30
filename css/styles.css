@@ -81,17 +81,16 @@ img {
 
 /* HEADER STYLE */
 .header {
-  padding-bottom: 25.5px;
-  padding-top: 25.5px;
+  
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); 
+  
 }
 
 .header .container {
   display: flex;
   padding: 0 15px;
   align-items: center;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-
 }
 
 .logo-header {
@@ -136,7 +135,9 @@ img {
   gap: 40px;  
 }
 
-
+.logo-header .span {
+  color: var(--iris);
+}
 
 .contacts-link {
   white-space: nowrap;
