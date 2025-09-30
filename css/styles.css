@@ -309,7 +309,7 @@ main {
 
 .team-info .social-link:hover,
 .team-info .social-link:focus {
-  background-color: var(--green);
+  background-color: var(--ocean);
 }
 /* Portfolio-STYLES */
 
