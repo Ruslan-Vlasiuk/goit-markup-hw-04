@@ -19,6 +19,8 @@
 
 /*  */
 body {
+  margin: 0;
+  padding: 0;
   font-family: var(--fonts);
   font-size: var(--size-text);
   color: var(--navy-blue);
@@ -43,6 +45,12 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+main {
+margin: 0;
+padding: 0;
+width: 100%;
+box-sizing: border-box
 }
 
 .list {
@@ -77,6 +85,7 @@ img {
   width: 1158px; 
   margin: 0 auto;
   padding: 0 15px;  
+  box-sizing: border-box;
 }
 
 /* HEADER STYLE */
@@ -173,16 +182,16 @@ img {
 
 .hero {
   background: var(--navy-blue);
-  padding: 188px 0 188px 0;
+  padding: 188px 0;
   background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
   max-width: 1440px;
   margin: 0 auto;
+  box-sizing: border-box
 }
-.hero .container {
-}
+
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
