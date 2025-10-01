@@ -330,7 +330,6 @@ main {
 }
 
 .portfolio-list {
-  margin-top: 72px;
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
